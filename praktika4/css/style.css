@@ -1,0 +1,59 @@
+@import url(reset.css);
+
+.header {
+	width: 1440px;
+	height: 200px;
+	background-color: #E5E000;
+
+}
+h1 {
+	font-family: Helvetica;
+	font-size: 50px;
+	line-height: 200px;
+	color: white;
+}
+.content-container {
+	width: 1440px;
+	height: 1080px;
+	background-image: url(../img/imgbg.png);
+}
+.content-title {
+	width: 1440px;
+	height: 100px;
+	background: #E5E000;
+}
+.content-title h2 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 100px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+.text-container p {
+	font-family: Helvetica;
+	font-style: normal;
+	font-size: 50px;
+	line-height: 57px;
+	color: #000000;
+}
+.text-container h2 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-size: 50px;
+	line-height: 57px;
+	color: #000000;
+	font-weight: bold;
+}
+.footer {
+	width: 1440px;
+	height: 200px;
+	background: #E5E000;
+}
+.footer h2 {
+	font-family: Helvetica;
+	font-size: 50px;
+	line-height: 57px;
+	color: white;
+}

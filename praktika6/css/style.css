@@ -1,0 +1,138 @@
+@import url(reset.css);
+
+.header {
+	height: 140px;
+	width: 1440px;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width: 120px;
+	height: 40px;
+	display: inline-block;
+}
+
+.logo p {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: #E50043;
+}
+
+.header a {
+	font-family: Arial;
+	font-size: 50px;
+	color: #E50043;
+	text-decoration: none;
+}
+
+.links {
+	position: absolute;
+	top: 50px;
+	left: 950px;
+	width: 440px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.evian {
+	height: 950px;
+	width: 1440px;
+	display: flex;
+	background-image: url('../img/evian_origins_logo.png');
+}
+
+.evian h1 {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	color: #E50043;
+	margin: auto;
+	position: relative;
+}
+
+.discription {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+}
+
+.title {
+	border: 3px solid #F8BFC7;
+	width: 1040px;
+	height: 280px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	margin-top: 150px;
+	margin-left: 200px;
+}
+
+.title p {
+	font-family: Arial;
+	font-size: 25px;
+	letter-spacing: 0.05em;
+	padding: 24px 24px 0px 0px;
+}
+
+.bottles {
+	width: 1040px;
+	font-size: 0px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 200px;
+	margin-top: 150px;
+}
+
+.bottle {
+	display: inline-block;
+}
+
+.bottle p {
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	align-items: center;
+	text-align: center;
+	width: 248px;
+	margin: auto;
+	margin-top: 48px;
+}
+
+.bottle-img {
+	display: inline-block;
+	width: 101px;
+	height: 220px;
+	margin-top: 30px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.title-text {
+	display: inline-block;
+	width: 749px;
+	height: 220px;
+}
+.title_flex {
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+.footer {
+	width: 1440px;
+	height: 140px;
+	background: #F8BFC7;
+	margin-top: 150px;
+}
+.footer p {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	align-items: center;
+	color: #FFFFFF;
+	padding: 45px;
+}

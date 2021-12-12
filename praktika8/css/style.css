@@ -1,0 +1,98 @@
+@import url(reset.css);
+
+.header {
+	height: 160px;
+	width: 100%;
+	background-color: #FFE138;
+	display: flex;
+}
+
+.header p {
+	margin: auto;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.mane {
+	width: 100%;
+	display: flex;
+
+}
+
+.container {
+	width: 90%;
+	margin: 70px auto;
+	justify-content: space-between;
+	font-size: 0px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.column1, .column2, .column3 {
+	width: calc((100% - 100px)/3);
+	box-sizing: border-box;
+	border: 1px solid black;
+	min-height: 985px;
+	display: inline-block;
+	vertical-align: top;
+}
+.column_img {
+	height: 600px;	
+}
+
+.one {
+	background-size: cover;
+	background-position: center;
+	background-image: url('../img/Meta Side Table.png');
+}
+.two{
+	background-size: cover;
+	background-position: center;
+	background-image: url('../img/Click Shelf.png');
+}
+.three {
+	background-size: cover;
+	background-position: center;
+	background-image: url('../img/Float Shelf.png');
+}
+.column_text {
+	margin: 30px 33px;
+	width: 84%;
+}
+
+.column_text .title {
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.column_text p {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.footer {
+	height: 160px;
+	width: 100%;
+	background-color: #FFE138;
+	display: flex;
+}
+.footer p {
+	margin: auto;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+}

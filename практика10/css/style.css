@@ -1,0 +1,50 @@
+@import url(reset.css);
+
+.header {
+	width: 1440px;
+	height: 90px;
+	background-color: #F8BFC7;
+	display: flex;
+	align-items: center;
+}
+
+.nav {
+	display: inline-block;
+	display: flex;
+	margin-left: 20px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	line-height: 23px;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 30px;
+}
+
+.menu {
+	margin-left: 874px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	line-height: 23px;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.cycle {
+	height: 643px;
+	background-image: url('../img/background.png');
+}
+
+.thanks {
+	height: 201px;
+	background-color: rgb(51 111 209);
+}
